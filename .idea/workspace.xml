@@ -16,7 +16,7 @@
             <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="82">
-                  <caret line="2550" column="37" selection-start-line="2550" selection-start-column="37" selection-end-line="2550" selection-end-column="37" />
+                  <caret line="2550" column="36" selection-start-line="2550" selection-start-column="36" selection-end-line="2550" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -28,8 +28,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="562">
-                  <caret line="2544" column="40" selection-start-line="2544" selection-start-column="40" selection-end-line="2544" selection-end-column="40" />
+                <state relative-caret-position="292">
+                  <caret line="2526" column="29" lean-forward="true" selection-start-line="2526" selection-start-column="29" selection-end-line="2526" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -210,7 +210,7 @@
       <workItem from="1616758306696" duration="1071000" />
       <workItem from="1617699140540" duration="22865000" />
       <workItem from="1617871091718" duration="7672000" />
-      <workItem from="1617896113252" duration="882000" />
+      <workItem from="1617896113252" duration="1200000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1617896390706</created>
@@ -219,17 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1617896390706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1617897075427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617897075427</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362371000" />
+    <option name="totallyTimeSpent" value="362689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-1055" width="2045" height="1055" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11183225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -382,8 +388,8 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="2550" column="37" selection-start-line="2550" selection-start-column="37" selection-end-line="2550" selection-end-column="37" />
+        <state relative-caret-position="292">
+          <caret line="2526" column="29" lean-forward="true" selection-start-line="2526" selection-start-column="29" selection-end-line="2526" selection-end-column="29" />
         </state>
       </provider>
     </entry>
