@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea43d30f-455b-4f4b-8461-408da3fa6798" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Advanced-css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addtoanyconfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bottom fluxys-fr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bottom fluxys-nl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/branding-bottom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/branding-top.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comparesauvegarde fluxys.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fichiers-fluxys.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fluxys-class-to-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fluxys-fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fluxys-js-sauvegarde.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fluxys-nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fluxys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
-    </list>
+    <list default="true" id="ea43d30f-455b-4f4b-8461-408da3fa6798" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +15,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="562">
-                  <caret line="2544" column="40" selection-start-line="2544" selection-start-column="40" selection-end-line="2544" selection-end-column="40" />
+                <state relative-caret-position="82">
+                  <caret line="2550" column="37" selection-start-line="2550" selection-start-column="37" selection-end-line="2550" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -41,10 +26,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/requisition-sauvegarde.html">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2040">
-                  <caret line="106" column="187" selection-start-line="106" selection-start-column="187" selection-end-line="106" selection-end-column="187" />
+                <state relative-caret-position="562">
+                  <caret line="2544" column="40" selection-start-line="2544" selection-start-column="40" selection-end-line="2544" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -123,13 +108,13 @@
         <option value="$PROJECT_DIR$/sauvegarde fluxys.css" />
         <option value="$PROJECT_DIR$/branding-top.html" />
         <option value="$PROJECT_DIR$/test.js" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.css" />
         <option value="$PROJECT_DIR$/comparesauvegarde fluxys.css" />
         <option value="$PROJECT_DIR$/branding-bottom.html" />
         <option value="$PROJECT_DIR$/addtoanyconfig.js" />
         <option value="$PROJECT_DIR$/requisition-sauvegarde.html" />
         <option value="$PROJECT_DIR$/Advanced-css.css" />
         <option value="$PROJECT_DIR$/fluxys.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.css" />
       </list>
     </option>
   </component>
@@ -151,6 +136,11 @@
             <path>
               <item name="Fluxys-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fluxys-site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fluxys-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fluxys-site" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,7 +210,7 @@
       <workItem from="1616758306696" duration="1071000" />
       <workItem from="1617699140540" duration="22865000" />
       <workItem from="1617871091718" duration="7672000" />
-      <workItem from="1617896113252" duration="713000" />
+      <workItem from="1617896113252" duration="882000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1617896390706</created>
@@ -233,7 +223,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362202000" />
+    <option name="totallyTimeSpent" value="362371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-1055" width="2045" height="1055" extended-state="0" />
@@ -392,8 +382,8 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="2544" column="40" selection-start-line="2544" selection-start-column="40" selection-end-line="2544" selection-end-column="40" />
+        <state relative-caret-position="82">
+          <caret line="2550" column="37" selection-start-line="2550" selection-start-column="37" selection-end-line="2550" selection-end-column="37" />
         </state>
       </provider>
     </entry>
