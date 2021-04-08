@@ -499,8 +499,6 @@ jQuery( ".jCommunityModal" ).click(function() {
 });
 
 
-
-
 jQuery( window ).click(function() {
   /* replace textes in job alert modal */
   if (jQuery('html').is(':lang(en)')) {
