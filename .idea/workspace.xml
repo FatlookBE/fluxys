@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ea43d30f-455b-4f4b-8461-408da3fa6798" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Advanced-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Advanced-css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/fluxys.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fluxys.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48735243">
+    <splitter split-orientation="horizontal" split-proportion="0.36687118">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="2565" column="23" lean-forward="true" selection-start-line="2565" selection-start-column="23" selection-end-line="2565" selection-end-column="23" />
+                <state relative-caret-position="377">
+                  <caret line="2569" column="28" lean-forward="true" selection-start-line="2569" selection-start-column="28" selection-end-line="2569" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -27,11 +29,29 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="353">
-                  <caret line="2531" column="26" lean-forward="true" selection-start-line="2531" selection-start-column="26" selection-end-line="2531" selection-end-column="26" />
+                  <caret line="2531" column="26" selection-start-line="2531" selection-start-column="26" selection-end-line="2531" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="412">
+                  <caret line="451" column="70" selection-start-line="451" selection-start-column="70" selection-end-line="451" selection-end-column="70" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/fluxys.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="326">
+                  <caret line="178" column="149" lean-forward="true" selection-end-line="535" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -51,15 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#apply_btn</find>
-      <find>solli</find>
-      <find>career</find>
-      <find>#boilerplate_wrapper</find>
-      <find>gradient</find>
-      <find>l</find>
-      <find>Escape</find>
-      <find>escape</find>
-      <find>#colorbox #cboxContent input.inputtypetext, #colorbox #cboxContent .chzn-container-multi, #colorbox #cboxContent .chzn-container, #colorbox #cboxContent .location_list</find>
       <find>#colorbox #registration_form .user_name_holder .user_first_name_holder</find>
       <find>#colorbox .register_tc #registration_form .terms_conditions_holder.action_left label</find>
       <find>enticin</find>
@@ -81,6 +92,15 @@
       <find>#topBranding img.fit-picture</find>
       <find>epic-1</find>
       <find>fit-pictur</find>
+      <find>colorbox</find>
+      <find>language</find>
+      <find>facet</find>
+      <find>colorbo</find>
+      <find>cboxLoadedContent</find>
+      <find>job_available_locales_loop</find>
+      <find>header_settings_language</find>
+      <find>job_available_locales_loop_chzn</find>
+      <find>local</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -117,12 +137,14 @@
         <option value="$PROJECT_DIR$/Advanced-css.css" />
         <option value="$PROJECT_DIR$/fluxys.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.css" />
+        <option value="$PROJECT_DIR$/js/fluxys.js" />
+        <option value="$PROJECT_DIR$/CSS/Advanced-css.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="-1055" />
+    <option name="x" value="-43" />
+    <option name="y" value="-974" />
     <option name="width" value="2045" />
     <option name="height" value="1055" />
   </component>
@@ -147,12 +169,12 @@
             <path>
               <item name="Fluxys-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fluxys-site" type="462c0819:PsiDirectoryNode" />
-              <item name="Guide" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fluxys-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fluxys-site" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="requisition" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,7 +245,8 @@
       <workItem from="1617699140540" duration="22865000" />
       <workItem from="1617871091718" duration="7672000" />
       <workItem from="1617896113252" duration="1200000" />
-      <workItem from="1617897353858" duration="883000" />
+      <workItem from="1617897353858" duration="1742000" />
+      <workItem from="1617954048035" duration="3479000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1617896390706</created>
@@ -246,16 +269,24 @@
       <option name="project" value="LOCAL" />
       <updated>1617897369315</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="...">
+      <created>1617898327796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617898327796</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="363572000" />
+    <option name="totallyTimeSpent" value="367910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="-1055" width="2045" height="1055" extended-state="0" />
+    <frame x="-43" y="-974" width="2045" height="1055" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18472292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18622068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,24 +317,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fluxys-js-sauvegarde.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="224" column="92" selection-start-line="224" selection-start-column="92" selection-end-line="224" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fluxys-js-sauvegarde.js" />
     <entry file="file://$PROJECT_DIR$/bottom fluxys-fr" />
     <entry file="file://$PROJECT_DIR$/fluxys-nl.js" />
     <entry file="file://$PROJECT_DIR$/fluxys-fr.js" />
     <entry file="file://$PROJECT_DIR$/bottom fluxys-nl" />
-    <entry file="file://$PROJECT_DIR$/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="2554" column="33" lean-forward="true" selection-start-line="2554" selection-start-column="33" selection-end-line="2554" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js" />
     <entry file="file://$PROJECT_DIR$/branding-top.html" />
     <entry file="file://$PROJECT_DIR$/addtoanyconfig.js" />
     <entry file="file://$PROJECT_DIR$/Advanced-css.css" />
@@ -313,10 +332,29 @@
     <entry file="file://$PROJECT_DIR$/branding-bottom.html" />
     <entry file="file://$PROJECT_DIR$/requisition-sauvegarde.html" />
     <entry file="file://$PROJECT_DIR$/requisition.html" />
+    <entry file="file://$PROJECT_DIR$/js/fluxys-js-sauvegarde.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3098" />
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="2565" column="23" lean-forward="true" selection-start-line="2565" selection-start-column="23" selection-end-line="2565" selection-end-column="23" />
+        <state relative-caret-position="353">
+          <caret line="2531" column="26" selection-start-line="2531" selection-start-column="26" selection-end-line="2531" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="451" column="70" selection-start-line="451" selection-start-column="70" selection-end-line="451" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fluxys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="178" column="149" lean-forward="true" selection-end-line="535" selection-end-column="3" />
         </state>
       </provider>
     </entry>

@@ -178,8 +178,8 @@ if (jQuery("#G130105010618").length) {
       jQuery(".fit-picture").attr("src", "/media/images/epic-banners/epic-banner-2.jpg").show("fade");
       jQuery("meta[property='og:image']").attr("content", "https://stgfluxyssa.upgrade.selectminds.com/media/images/epic-banners/epic-banner-2.jpg");
       jQuery('.fluxys-baseline, .text-emphasis-gradient').addClass('other-gradient');
-      jQuery('.jApplyBtn, .gray_btn, .chzn-single').addClass('btn-other-gradient');
-      jQuery('#job_available_locales_loop_chzn').addClass('list-other-gradient');
+      jQuery('.jApplyBtn, .gray_btn, .chzn-single, .locale_select').addClass('btn-other-gradient');
+      jQuery('#job_available_locales_loop_chzn, .locale_select').addClass('list-other-gradient');
       jQuery('#logo_hldr .logo').css('background-image', 'url(/media/images/campaign/vorm4-header-other-gradient.png)');
       jQuery('.big-image-background').addClass('bg-other-gradient');
       jQuery(".baseline-footer-print img").attr('src','/media/images/campaign/baselineprint-other-bg.png')
