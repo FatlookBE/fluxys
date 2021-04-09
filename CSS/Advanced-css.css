@@ -390,6 +390,10 @@ html[lang=en] .job_details .job-detail-intro .lang-hide.en{
     max-width: 158px !important;
 }
 
+#picklist_language_bar {
+    max-width: 150px !important;
+}
+
 #header_settings_container  #key_name_hldr {
     width: auto;
     font-family: "proxima-nova", sans-serif;
@@ -443,6 +447,10 @@ html[lang=en] .job_details .job-detail-intro .lang-hide.en{
         color: #444444 !important;
         margin-top: 2px;
         padding: 2px 11px;
+    }
+    .locale_select.btn-other-gradient {
+        background-image : linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg, #01d6ac 0%, #0085CA 100%) !important;
+        background-origin : border-box !important;
     }
 }
 .chzn-single span {
@@ -2371,6 +2379,24 @@ strong {
 
 #colorbox .jTermsConditionsModal {
     text-transform: lowercase;
+}
+
+
+/* facet pop pup */
+@media (max-width: 768px) {
+    #colorbox.facet_values_view_more {
+
+    }
+    #colorbox.facet_values_view_more #cboxContent {
+        width: calc(100vw - 15px) !important;
+    }
+    #colorbox.facet_values_view_more #cboxContent #cboxLoadedContent {
+        width: 100% !important;
+    }
+    #colorbox.facet_values_view_more #cboxContent #cboxLoadedContent .facet_view_modal {
+        width: 100% !important;
+
+    }
 }
 
 .flg_hldr {
