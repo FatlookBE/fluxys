@@ -192,6 +192,11 @@ body.no-scroll {
     width: 100%;
     overflow: hidden;
 }
+@media (max-width: 992px) {
+    #boilerplate_wrapper {
+        min-width: initial;
+    }
+}
 /*Font Proxima Nova */
 /*
  * The Typekit service used to deliver this font or fonts for use on websites
@@ -769,8 +774,9 @@ span.field_value.job-id {
     .quote {
         margin-top: 25px;
         margin-bottom: 25px;
-        padding: 30px 0;
-        flex-basis: 100%;
+        flex: 1 0 calc(100vw - 60px);
+        transform: translateX(-25px);
+        padding: 30px;
     }
 }
 .quote:before, .quote:after {
@@ -785,6 +791,11 @@ span.field_value.job-id {
 .quote:after {
     right: -100vw;
     left: initial;
+}
+@media (max-width: 992px) {
+    .quote:before, .quote:after {
+        display: none;
+    }
 }
 .quote .quote-inner-wrapper {
     display: flex;
