@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="ea43d30f-455b-4f4b-8461-408da3fa6798" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/CSS/old-css-prod.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/requisition/branding-bottom-old-prod.html" afterDir="false" />
@@ -9,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/js/fluxys.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fluxys.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requisition/branding-top.html" beforeDir="false" afterPath="$PROJECT_DIR$/requisition/branding-top.html" afterDir="false" />
     </list>
+
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +100,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/requisition/requisition.html">
               <provider selected="true" editor-type-id="text-editor">
+
                 <state relative-caret-position="307">
                   <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+
                 </state>
               </provider>
             </entry>
@@ -203,6 +207,7 @@
     <option name="x" value="-38" />
     <option name="y" value="-1055" />
     <option name="width" value="1792" />
+
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -305,10 +310,12 @@
       <workItem from="1617871091718" duration="7672000" />
       <workItem from="1617896113252" duration="1200000" />
       <workItem from="1617897353858" duration="1742000" />
+
       <workItem from="1617954048035" duration="3479000" />
       <workItem from="1618412580871" duration="80000" />
       <workItem from="1618563403045" duration="3050000" />
       <workItem from="1618820608550" duration="8640000" />
+
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1617896390706</created>
@@ -338,6 +345,7 @@
       <option name="project" value="LOCAL" />
       <updated>1617898327796</updated>
     </task>
+
     <task id="LOCAL-00005" summary="Fix bug scroll iPhone">
       <created>1618318583190</created>
       <option name="number" value="00005" />
@@ -371,6 +379,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="382118000" />
+
   </component>
   <component name="ToolWindowManager">
     <frame x="-449" y="-1055" width="2560" height="1055" extended-state="6" />
@@ -404,10 +413,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="..." />
+
     <MESSAGE value="Fix bug scroll iPhone" />
     <MESSAGE value="Add paragraph with borders on print and Update of the guide" />
     <MESSAGE value="Update Guide PDF." />
     <option name="LAST_COMMIT_MESSAGE" value="Update Guide PDF." />
+
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fluxys-js-sauvegarde.js" />
@@ -474,6 +485,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/fluxys.js">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="136">
           <caret line="195" column="12" lean-forward="true" selection-start-line="195" selection-start-column="12" selection-end-line="195" selection-end-column="12" />
         </state>
@@ -483,6 +495,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="671" column="30" lean-forward="true" selection-end-line="2781" selection-end-column="1" />
+
         </state>
       </provider>
     </entry>
