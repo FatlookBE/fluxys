@@ -218,7 +218,7 @@ if (jQuery(".field_company .field_value").length) {
   switch (valueLogo) {
     //The case = the text value for the Epic field in the administration
     case 'Fluxys':
-      jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 
       break;
 
@@ -248,7 +248,7 @@ s
       break;
 
     case 'GMSL':
-      jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 
       break;
 
@@ -258,17 +258,17 @@ s
       break;
 
     case 'Transitgaz':
-      jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 
       break;
     // this logo is shown if there is no matching value for valueEpic
     default:
-      jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 
   }
 } else {
   // if field_company field don't exist, this logo is shown by default
-  jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+  jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 }
 
 

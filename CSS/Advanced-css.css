@@ -677,6 +677,7 @@ span.field_value.job-id {
 }
 @media (max-width: 992px) {
     #topBranding img.fit-picture {
+        top: 0
     }
 }
 
@@ -2576,6 +2577,10 @@ strong {
 }
 
 .hide-on-screen {
+    display: none;
+}
+
+.promo_container {
     display: none;
 }
 /* PRINT */
