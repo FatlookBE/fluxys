@@ -1,0 +1,205 @@
+.pod {
+    /* margin-top: 105px; */
+    max-width: 898px;
+}
+
+.block_region.full-width {
+    margin-bottom: 130px;
+}
+
+#nav_hldr {
+    display: none;
+}
+
+#container #content {
+    width: 100%;
+
+}
+
+#content #job_details_content {
+    margin-top: -120px;
+}
+
+#job_list {
+    max-width: 899px;
+    min-width: 300px;
+}
+
+.job_list_row.jlr_Odd {
+    max-width: 650px;
+    min-width: 300px;
+    background-color: white;
+}
+
+.job_list_row jlr_Even {
+    max-width: 650px;
+    min-width: 300px;
+
+}
+
+#job_results_list_hldr, #job_no_results_list_hldr {
+    max-width: 672px;
+    min-width: 300px;
+    float: left;
+    margin-left: 9px;
+    width: auto;
+}
+
+.job_list #search_banner, .hidden_hero #search_banner {
+    background-image: url(https://fluxyssa.referrals.selectminds.com/media/images/banners-72ppi.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+body.mobile #search_banner {
+    background-image: url(https://fluxyssa.referrals.selectminds.com/media/images/banners-blanco-72ppi.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.flg_filter_hldr {
+    display: none;
+}
+
+#search_banner .search_positioner {
+    background: none;
+    box-shadow: none;
+    /* padding: 145px 55px; */
+
+}
+
+#content .content_body {
+    /* margin-top: 105px; */
+}
+
+#container .portal {
+    width:100%;
+
+}
+
+.search_btn {
+    border-radius: 80rem;
+    padding: 5px 11px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #cb8801, #ab045e);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.primary_btn, a.primary_btn, .generic_btn, a.generic_btn, .form_btn, a.form_btn {
+    border-radius: 80rem;
+    padding: 5px 11px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #cb8801, #ab045e);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.secondary_btn, a.secondary_btn, .gray_btn, a.gray_btn, .load_btn, a.load_btn {
+    border-radius: 80rem;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #90d5ac, #0185ca);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.filter_hldr .filter_row_hldr {
+    background-color: white;
+}
+
+div#job_details_content .main_content_box {
+    max-width: 853px;
+    min-width: 300px;
+    width: auto;
+}
+
+#description_box.main_content_box   {
+    min-width: 300px;
+    width: auto;
+}
+
+.footer_container {
+    display:none;
+}
+
+#bottomBranding #footer .footer_container {
+    display: block;
+}
+
+body.mobile #footer, body.mobile #footer_modular {
+
+    min-width: 300px;
+}
+
+.fluxys_links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fluxys_links li {
+    float: left;
+}
+
+
+.fluxys_links li a {
+    display: inline;
+    text-align: center;
+    padding-right: 16px;
+    text-decoration: none;
+}
+
+div#tee_account_profile, div#tee_account_submissions {
+    display: none;
+}
+
+.job_list_row .jlr_right_hldr .flg_hldr .video_flg {
+    background-image: none;
+}
+
+body.mobile #description_box .info_box .info_btn_box #refer_btn, body.mobile #description_box .info_box .info_btn_box #refer_btn:hover {
+    border-radius: 80rem;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #90d5ac, #0185ca);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    color: #444
+
+}
+
+body.mobile #description_box .info_box .info_btn_box #refer_btn, body.mobile #description_box .info_box .info_btn_box #refer_friend_btn, body.mobile #description_box .info_box .info_btn_box #apply_btn, body.mobile #description_box .info_box .info_btn_box #join_tc_btn {
+    float: none;
+    margin-bottom: 10px;
+    margin-right: auto;
+    width: 60%;
+    margin-left: auto;
+    padding: 3px 3px;
+    font-size: 100%;
+}
+
+body.mobile #colorbox .modal_actions .action_buttons .submit_cancel {
+    float: none;
+    margin-bottom: 10px;
+    margin-right: auto;
+    width: 60%;
+    margin-left: auto;
+    padding: 3px 3px;
+    font-size: 100%;
+}
+
+
+
+#header #header_container, #header_modular #header_container, body.taleo_biz #header_tbe #header_container, #header #header_settings_container, #header_modular #header_settings_container, body.taleo_biz #header_tbe #header_settings_container, #header_settings #header_container, #header_settings #header_settings_container, #footer .footer_container, #footer_modular .footer_container, #container {
+
+    min-width: 300px;
+}
+
+
+body.mobile #footer, body.mobile #footer_modular {
+    z-index: auto;
+}
+
+body.mobile #colorbox .modal_actions .action_buttons .submit_finish {
+    font-size: 13px;
+    line-height: 0;
+}

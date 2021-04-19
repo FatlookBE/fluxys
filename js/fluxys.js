@@ -155,10 +155,10 @@ j$(".job-alert.jCommunityModal, .settings_btn.jCommunityModal").unbind('click').
   TVAPP.modal.open("register_modal_tc",{},{mode:'register',context:preselect, action: event.currentTarget});
 });
 
-/* clone logo in content for print */
+/* clone logo + header in content for print */
 jQuery("#logo_inner").clone().insertBefore(".content_header .title");
-//jQuery(".baseline-footer-print").insertAfter(".full_content");
-
+jQuery(".baseline-footer-print").insertBefore(".content_header .title");
+jQuery(".job_details #container").prepend('<img class="print-organic-image" src="/media/images/campaign/vorm5-titels.png" />');
 
 /* banner epic */
 if (jQuery("#G130105010618").length) {
@@ -182,7 +182,8 @@ if (jQuery("#G130105010618").length) {
       jQuery('#job_available_locales_loop_chzn, .locale_select').addClass('list-other-gradient');
       jQuery('#logo_hldr .logo').css('background-image', 'url(/media/images/campaign/vorm4-header-other-gradient.png)');
       jQuery('.big-image-background').addClass('bg-other-gradient');
-      jQuery(".baseline-footer-print img").attr('src','/media/images/campaign/baselineprint-other-bg.png')
+      jQuery('.fit-picture').addClass('variant2');
+      jQuery(".baseline-footer-print img").attr('src','/media/images/campaign/baselineprint-other-bg.png');
       break;
 
     case 'Background Type: EPIC 3':
@@ -217,7 +218,7 @@ if (jQuery(".field_company .field_value").length) {
   switch (valueLogo) {
     //The case = the text value for the Epic field in the administration
     case 'Fluxys':
-      jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 
       break;
 
@@ -247,7 +248,7 @@ s
       break;
 
     case 'GMSL':
-      jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 
       break;
 
@@ -257,17 +258,17 @@ s
       break;
 
     case 'Transitgaz':
-      jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 
       break;
     // this logo is shown if there is no matching value for valueEpic
     default:
-      jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 
   }
 } else {
   // if field_company field don't exist, this logo is shown by default
-  jQuery(".logo img").attr("src", "/media/client_67_s15_r0_v1611057436338_main.png").show("fade");
+  jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 }
 
 

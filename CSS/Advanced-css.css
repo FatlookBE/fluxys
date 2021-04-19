@@ -192,6 +192,11 @@ body.no-scroll {
     width: 100%;
     overflow: hidden;
 }
+@media (max-width: 992px) {
+    #boilerplate_wrapper {
+        min-width: initial;
+    }
+}
 /*Font Proxima Nova */
 /*
  * The Typekit service used to deliver this font or fonts for use on websites
@@ -672,8 +677,20 @@ span.field_value.job-id {
 }
 @media (max-width: 992px) {
     #topBranding img.fit-picture {
+        top: 0
     }
 }
+
+#topBranding img.fit-picture.variant2 {
+    top: -35px;
+    right: -175px;
+}
+@media (min-width: 2000px) {
+    #topBranding img.fit-picture.variant2 {
+        right: initial;
+    }
+}
+
 #logo_hldr {
     position: absolute;
     right: 0px;
@@ -769,8 +786,9 @@ span.field_value.job-id {
     .quote {
         margin-top: 25px;
         margin-bottom: 25px;
-        padding: 30px 0;
-        flex-basis: 100%;
+        flex: 1 0 calc(100vw - 60px);
+        transform: translateX(-25px);
+        padding: 30px;
     }
 }
 .quote:before, .quote:after {
@@ -785,6 +803,11 @@ span.field_value.job-id {
 .quote:after {
     right: -100vw;
     left: initial;
+}
+@media (max-width: 992px) {
+    .quote:before, .quote:after {
+        display: none;
+    }
 }
 .quote .quote-inner-wrapper {
     display: flex;
@@ -2556,6 +2579,10 @@ strong {
 .hide-on-screen {
     display: none;
 }
+
+.promo_container {
+    display: none;
+}
 /* PRINT */
 @media print {
     .hide-on-screen {
@@ -2576,8 +2603,8 @@ strong {
     }
     .print-organic-image {
         display: block;
-        width: 250px;
-        height: auto;
+        position: absolute;
+        width: 100px;
     }
     .baseline-footer-print {
         display: block;
@@ -2684,9 +2711,11 @@ strong {
         /*filter: invert(1);*/
         text-align: right;
         position: relative;
-        margin-bottom: 15px;
+        left: 35px;
+        margin-bottom: 75px;
         margin-top: 25px;
-        float: right;
+        float: left;
+
     }
     .content_header #logo_inner img {
         opacity: 1 !important;
@@ -2718,6 +2747,13 @@ strong {
     .job_description .element-in-footer-to-print {
         display: block;
     }
+    /* borders top and bottom for a block */
+    .borders {
+        border-top: 1px solid #efefef !important;
+        border-bottom: 1px solid #efefef !important;
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
 }/* end print */
 
 #body_wrapper #search_hldr {
@@ -2728,6 +2764,7 @@ strong {
         display: block !important;
     }
 }
+
 
 
 /* support iOS */
