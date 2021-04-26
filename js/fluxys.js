@@ -161,9 +161,9 @@ jQuery(".baseline-footer-print").insertBefore(".content_header .title");
 jQuery(".job_details #container").prepend('<img class="print-organic-image" src="/media/images/campaign/vorm5-titels.png" />');
 
 /* banner epic */
-if (jQuery("#G130105010618").length) {
+if (jQuery("#G132205010618").length) {
   // We take the textual value of the field which will impact on the display of the logo and we store it in a variable which will be used in the "cases" of the switch below
-  var valueEpic = jQuery("#G130105010618").text();
+  var valueEpic = jQuery("#G132205010618").text();
 
 
   switch (valueEpic) {
