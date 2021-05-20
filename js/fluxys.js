@@ -161,9 +161,6 @@ jQuery(".baseline-footer-print").insertBefore(".content_header .title");
 jQuery(".job_details #container").prepend('<img class="print-organic-image" src="/media/images/campaign/vorm5-titels.png" />');
 
 /* hide buttton apply on requisition with Submission type = Email */
-if ((jQuery(jQuery("#G132205010618").text = "Submission Type: Email"))) {
-  jQuery('.apply_btn').remove();
-}
 if (jQuery("#G118105010618:contains('Submission Type: Email')").length > 0) {
   jQuery('#apply_btn').remove();
 }
