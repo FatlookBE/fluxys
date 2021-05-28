@@ -1013,9 +1013,11 @@ span.field_value.job-id {
     margin-bottom: 0;
 }
 .list .nested-list li {
+    display: flex;
     list-style-type: none !important;
 }
 .list .nested-list li:before {
+    margin-right: 5px;
     content:"- ";
 }
 
