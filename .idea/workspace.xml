@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea43d30f-455b-4f4b-8461-408da3fa6798" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/Advanced-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Advanced-css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/fluxys.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fluxys.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46821633">
+    <splitter split-orientation="horizontal" split-proportion="0.33063748">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -27,8 +27,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="1019" column="22" selection-end-line="2783" selection-end-column="1" />
+                <state relative-caret-position="333">
+                  <caret line="1018" column="30" lean-forward="true" selection-start-line="1018" selection-start-column="30" selection-end-line="1018" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -45,7 +45,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/requisition/branding-bottom.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
+                <state relative-caret-position="435">
                   <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
                 </state>
               </provider>
@@ -55,20 +55,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="428">
-                  <caret line="2502" column="27" lean-forward="true" selection-start-line="2502" selection-start-column="27" selection-end-line="2502" selection-end-column="27" />
+                  <caret line="2502" column="27" selection-start-line="2502" selection-start-column="27" selection-end-line="2502" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/fluxys.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4830">
-                  <caret line="322" selection-start-line="322" selection-end-line="322" selection-end-column="39" />
+                <state relative-caret-position="235">
+                  <caret line="165" column="65" selection-start-line="165" selection-start-column="60" selection-end-line="165" selection-end-column="65" />
                 </state>
               </provider>
             </entry>
@@ -97,9 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fit-pictur</find>
-      <find>colorbox</find>
-      <find>language</find>
       <find>facet</find>
       <find>colorbo</find>
       <find>cboxLoadedContent</find>
@@ -127,6 +124,9 @@
       <find>print</find>
       <find>appl</find>
       <find>ajax</find>
+      <find>dunkerque</find>
+      <find>ported.src</find>
+      <find>email</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -172,8 +172,8 @@
         <option value="$PROJECT_DIR$/requisition/branding-bottom-old-prod.html" />
         <option value="$PROJECT_DIR$/requisition/branding-top.html" />
         <option value="$PROJECT_DIR$/requisition/requisition.html" />
-        <option value="$PROJECT_DIR$/js/fluxys.js" />
         <option value="$PROJECT_DIR$/CSS/Advanced-css.css" />
+        <option value="$PROJECT_DIR$/js/fluxys.js" />
       </list>
     </option>
   </component>
@@ -295,6 +295,8 @@
       <workItem from="1621514373915" duration="2118000" />
       <workItem from="1621587071941" duration="830000" />
       <workItem from="1622185928693" duration="1974000" />
+      <workItem from="1622457008004" duration="10000" />
+      <workItem from="1622531063285" duration="3477000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1617896390706</created>
@@ -377,13 +379,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392762000" />
+    <option name="totallyTimeSpent" value="396249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-449" y="-1055" width="2560" height="1055" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16282764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16521049" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -396,7 +398,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17868339" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -460,10 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/fluxys.js">
+    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4830">
-          <caret line="322" selection-start-line="322" selection-end-line="322" selection-end-column="39" />
+        <state relative-caret-position="435">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -474,24 +476,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom.html">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+        <state relative-caret-position="428">
+          <caret line="2502" column="27" selection-start-line="2502" selection-start-column="27" selection-end-line="2502" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="1019" column="22" selection-end-line="2783" selection-end-column="1" />
+        <state relative-caret-position="333">
+          <caret line="1018" column="30" lean-forward="true" selection-start-line="1018" selection-start-column="30" selection-end-line="1018" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
+    <entry file="file://$PROJECT_DIR$/js/fluxys.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="2502" column="27" lean-forward="true" selection-start-line="2502" selection-start-column="27" selection-end-line="2502" selection-end-column="27" />
+        <state relative-caret-position="235">
+          <caret line="165" column="65" selection-start-line="165" selection-start-column="60" selection-end-line="165" selection-end-column="65" />
         </state>
       </provider>
     </entry>

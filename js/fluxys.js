@@ -35,11 +35,14 @@ if(myLogoInnerDiv != null) {
   }
 }
 
-if(!myApplyByEmailOnlyFound) {
-  var imported = document.createElement('script');
-  imported.src = 'https://objectstorage.eu-frankfurt-1.oraclecloud.com/n/frrdnn3p0fb7/b/oda-native-client-sdk-js-20.6.1/o/chatbot.js';
-  document.head.appendChild(imported);
-}
+// if(!myApplyByEmailOnlyFound) {
+//   var imported = document.createElement('script');
+//   /* prod URL */
+//   imported.src = 'https://objectstorage.eu-frankfurt-1.oraclecloud.com/n/frrdnn3p0fb7/b/oda-native-client-sdk-js-20.6.1/o/chatbot_production.js';
+//  /* staging url
+//  imported.src = 'https://objectstorage.eu-frankfurt-1.oraclecloud.com/n/frrdnn3p0fb7/b/oda-native-client-sdk-js-20.6.1/o/chatbot.js';*/
+//   document.head.appendChild(imported);
+// }
 
 // Luca Spinali -- 19/01/2020
 
@@ -163,6 +166,14 @@ jQuery(".job_details #container").prepend('<img class="print-organic-image" src=
 /* hide buttton apply on requisition with Submission type = Email */
 if (jQuery("#G118105010618:contains('Submission Type: Email')").length > 0) {
   jQuery('#apply_btn').remove();
+}else {
+  /* load chatbot */
+  var imported = document.createElement('script');
+  /* prod URL */
+  imported.src = 'https://objectstorage.eu-frankfurt-1.oraclecloud.com/n/frrdnn3p0fb7/b/oda-native-client-sdk-js-20.6.1/o/chatbot_production.js';
+  /* staging url
+  imported.src = 'https://objectstorage.eu-frankfurt-1.oraclecloud.com/n/frrdnn3p0fb7/b/oda-native-client-sdk-js-20.6.1/o/chatbot.js';*/
+  document.head.appendChild(imported);
 }
 /* banner epic */
 if (jQuery("#G132205010618").length) {
@@ -228,7 +239,9 @@ if (jQuery(".field_company .field_value").length) {
 
     case 'Dunkerque LNG':
       jQuery(".logo img").attr("src", "/media/images/logos-affiliates/brand-outline_dunkerque-LNG-white.png").show("fade");
-
+      /* change socials links */
+      jQuery('.share.linkedin').attr('href','https://www.linkedin.com/company/dunkerque-lng-sas/');
+      jQuery('.share.twitter').attr('href','https://twitter.com/DunkerqueLNG');
       break;
 
     case 'FluxSwiss':
@@ -248,12 +261,13 @@ s
 
     case 'Gaz-Opale':
       jQuery(".logo img").attr("src", "/media/images/logos-affiliates/brand-outline_gaz-opale-white.png").show("fade");
-
+      /* change socials links */
+      jQuery('.share.linkedin').attr('href','https://www.linkedin.com/company/dunkerque-lng-sas/');
+      jQuery('.share.twitter').attr('href','https://twitter.com/DunkerqueLNG');
       break;
 
     case 'GMSL':
       jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
-
       break;
 
     case 'Interconnector':
