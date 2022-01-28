@@ -1,4 +1,3 @@
-
 .pod {
     /* margin-top: 105px; */
     max-width: 898px;
@@ -530,7 +529,9 @@ html[lang=en] .job_details .job-detail-intro .lang-hide.en{
 }
 #content .content_body .content_header {
     margin-bottom: 0;
+    padding: 20px 20px 0 20px;
 }
+
 #content .content_body .content_header .jSearchSubtitle {
     display: none;
 }
@@ -715,6 +716,10 @@ span.field_value.job-id {
     max-width: 190px !important;
     transform: translate(10px , 20px);
     opacity: 0;
+}
+
+#logo_hldr .logo img.interconnector {
+    max-width: 270px !important;
 }
 
 .content_header #logo_inner {

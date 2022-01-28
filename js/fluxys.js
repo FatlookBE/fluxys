@@ -1,3 +1,5 @@
+
+
 j$(".dropdown-heading").hover(function(){j$('.dropdown-list',this).fadeToggle('fast');});
 
 var myJobInsideInfoDiv = document.getElementById('jJobInsideInfo');
@@ -126,6 +128,7 @@ if (jQuery(".v2").length) {
   jQuery(".job_external_id .field_value").addClass('job-id').appendTo(".section-header-more-informations");
 }
 
+
 /* place all elements after title job in content for the print */
 jQuery(".section-header-more-informations").clone().insertAfter(jQuery(".job_details .content_header > .title"));
 
@@ -229,12 +232,17 @@ if (jQuery(".field_company .field_value").length) {
   // We take the textual value of the field which will impact on the display of the logo and we store it in a variable which will be used in the "cases" of the switch below
   var valueLogo = jQuery(".field_company .field_value").text();
 
-
+function removeLinkApply() {
+  jQuery( ".apply-btn-text" ).css({
+    'pointer-events' : 'none',
+    'text-decoration' : 'none',
+  });
+}
   switch (valueLogo) {
     //The case = the text value for the Epic field in the administration
     case 'Fluxys':
       jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
-
+      /* if click on text button apply --> click on the real button */
       break;
 
     case 'Dunkerque LNG':
@@ -242,21 +250,29 @@ if (jQuery(".field_company .field_value").length) {
       /* change socials links */
       jQuery('.share.linkedin').attr('href','https://www.linkedin.com/company/dunkerque-lng-sas/');
       jQuery('.share.twitter').attr('href','https://twitter.com/DunkerqueLNG');
+      removeLinkApply();
       break;
 
     case 'FluxSwiss':
       jQuery(".logo img").attr("src", "/media/images/logos-affiliates/brand-outline_fluxswiss-white.png").show("fade");
-s
+      removeLinkApply();
+      break;
+
+    case 'Fluxys Brasil' :
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
+      removeLinkApply();
       break;
 
     case 'Fluxys Deutschland':
-      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/brand-outline_fluxys_Deutschland-white.png").show("fade");
-
+      //jQuery(".logo img").attr("src", "/media/images/logos-affiliates/brand-outline_fluxys_Deutschland-white.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
+      removeLinkApply();
       break;
 
     case 'Fluxys TENP':
-      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/brand-outline_fluxys_TENP-white.png").show("fade");
-
+      //jQuery(".logo img").attr("src", "/media/images/logos-affiliates/brand-outline_fluxys_TENP-white.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
+      removeLinkApply();
       break;
 
     case 'Gaz-Opale':
@@ -264,14 +280,17 @@ s
       /* change socials links */
       jQuery('.share.linkedin').attr('href','https://www.linkedin.com/company/dunkerque-lng-sas/');
       jQuery('.share.twitter').attr('href','https://twitter.com/DunkerqueLNG');
+      removeLinkApply();
       break;
 
     case 'GMSL':
       jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
+      removeLinkApply();
       break;
 
     case 'Interconnector':
-      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/brand-outline_interconnector-white.png").show("fade");
+      jQuery(".logo img").attr("src", "/media/images/logos-affiliates/brand-outline_interconnector-white.png").addClass('interconnector').show("fade");
+      removeLinkApply();
 
       break;
 
@@ -289,9 +308,12 @@ s
   jQuery(".logo img").attr("src", "/media/images/logos-affiliates/logo-fluxys-white.png").show("fade");
 }
 
+/* make the logo visible , avoid to see the logo set by default on the website */
+jQuery(".logo img").css("opacity","1");
 
 /* element to print in footer */
 jQuery('.element-in-footer-to-print').clone().appendTo('.job_description');
+
 /* detect lang and put the intro in the good language */
 if (jQuery('html').is(':lang(en)')) {
   // check first letter of the job title and change the intro sentence according to this one
@@ -311,6 +333,16 @@ if (jQuery('html').is(':lang(en)')) {
   jQuery(".job_details .job-detail-intro").text("Profil recherché : ");
   // replace text Apply by Apply now on the bottom of the page
   jQuery(".job_details .jApplyBtn .btn_text").text("je postule");
+} else if(jQuery('html').is(':lang(de)')) {
+  // Deutsch
+  jQuery(".back-button").text("< Alle Stellen");
+  // replace text Apply by Apply now on the bottom of the page
+  jQuery(".job_details .jApplyBtn .btn_text").text("Ich postuliere");
+  // replace text button job alert
+  jQuery("#header_settings .settings_btn").text("Stellenbenachrichtigung");
+  // replace title texte search
+  jQuery(".section-header-title-search h1").text("Fluxys: Ihr Partner für Gasinfrastruktur ");
+
 } else {
   // nl
   jQuery(".job_details .job-detail-intro").text("Vereist profiel : ");
@@ -389,14 +421,17 @@ jQuery( ".print_btn" ).click(function() {
 });
 
 /* load script for addToAny */
-var addToAnyConfig = document.createElement("script");
-addToAnyConfig.type = "text/javascript";
-addToAnyConfig.src = "https://www.fatlook.be/fluxys/addtoanyconfig.js";
-var addToAny = document.createElement("script");
-addToAny.type = "text/javascript";
-addToAny.src = "https://static.addtoany.com/menu/page.js";
-jQuery("head").append(addToAnyConfig, addToAny);
-jQuery('.a2a_kit').appendTo('.wrapper-add-to-any');
+  var addToAnyConfig = document.createElement("script");
+  addToAnyConfig.type = "text/javascript";
+  addToAnyConfig.src = "https://www.fatlook.be/fluxys/addtoanyconfig.js";
+  var addToAny = document.createElement("script");
+  addToAny.type = "text/javascript";
+  addToAny.src = "https://static.addtoany.com/menu/page.js";
+  jQuery("head").append(addToAnyConfig, addToAny);
+  jQuery('.a2a_kit').appendTo('.wrapper-add-to-any');
+
+
+
 
 
 
@@ -486,8 +521,7 @@ jQuery.each({
 });
 
 
-/* make the logo visible , avoid to see the logo set by default on the website */
-jQuery(".logo img").css("opacity","1");
+
 
 /* get url of page and put it as HREF  for print ( link to the requisition page */
 var pageURL = jQuery(location).attr("href");
