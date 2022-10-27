@@ -1,14 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea43d30f-455b-4f4b-8461-408da3fa6798" name="Default Changelist" comment="">
+    <list default="true" id="ea43d30f-455b-4f4b-8461-408da3fa6798" name="Default Changelist" comment="remove chatbot on requisition with submission type email">
+      <change afterPath="$PROJECT_DIR$/CSS/css-environnement-test-de-david.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/fluxys-sauvegarde-09_06_22.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/last OK - 09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/Advanced-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Advanced-css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/fluxys.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fluxys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html" beforeDir="false" afterPath="$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requisition/branding-top.html" beforeDir="false" afterPath="$PROJECT_DIR$/requisition/branding-top.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.32352942">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/fluxys.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3191">
+                  <caret line="336" column="59" selection-start-line="336" selection-start-column="59" selection-end-line="336" selection-end-column="59" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/fluxys-sauvegarde-09_06_22.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="840">
+                  <caret line="56" column="81" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="8265">
+                  <caret line="551" column="32" selection-start-line="551" selection-start-column="32" selection-end-line="551" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CSS/css-environnement-test-de-david.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40935">
+                  <caret line="2729" column="5" selection-start-line="2729" selection-start-column="5" selection-end-line="2729" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/last OK - 09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="483">
+                  <caret line="348" lean-forward="true" selection-start-line="348" selection-end-line="348" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/requisition/branding-bottom.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="495">
+                  <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/requisition/branding-top.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/requisition/requisition.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,36 +121,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dunkerque</find>
-      <find>ported.src</find>
-      <find>email</find>
-      <find>stop</find>
-      <find>now</find>
-      <find>hldr</find>
-      <find>logo_inner</find>
-      <find>338_main</find>
-      <find>pop-up</find>
-      <find>fr</find>
-      <find>iframe</find>
-      <find>270</find>
-      <find>content_header</find>
-      <find>_header</find>
-      <find>ack-button</find>
-      <find>jSearchHldr</find>
-      <find>search_hldr</find>
-      <find>video-pop-up</find>
-      <find>company</find>
-      <find>G111605010618</find>
-      <find>print</find>
-      <find>job-al</find>
-      <find>section-header-title-search</find>
+      <find>de</find>
+      <find>subtitl</find>
+      <find>#cboxLoadedContent</find>
+      <find>location</find>
       <find>lang</find>
-      <find>compan</find>
-      <find>click</find>
-      <find>job_search_banner</find>
-      <find>en/</find>
-      <find>fluxys-baseline</find>
-      <find>I agree to</find>
+      <find>hlen</find>
+      <find>fluxys:</find>
+      <find>ga</find>
+      <find>ua</find>
+      <find>11</find>
+      <find>apply_btn</find>
+      <find>ready</find>
+      <find>wrapper-banniere</find>
+      <find>esc</find>
+      <find>key</find>
+      <find>-11</find>
+      <find>#content .content_body .content_header</find>
+      <find>2)</find>
+      <find>2</find>
+      <find>section-header-title-search</find>
+      <find>ection-header-title-search</find>
+      <find>ict</find>
+      <find>ich</find>
+      <find>jApplyBtn</find>
+      <find>Ich postuliere</find>
+      <find>partner fü</find>
+      <find>stellenbenachrichtigungen</find>
+      <find>Registrieren Sie sich für Stellenbenachrichtigungen</find>
+      <find>Nach Name sortieren</find>
+      <find>back-button</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -58,6 +158,7 @@
       <replace>.register_modal_tc#colorbox</replace>
       <replace>jQuery</replace>
       <replace>992</replace>
+      <replace>Registrieren Sie sich für unseren Job alert</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -99,16 +200,19 @@
         <option value="$PROJECT_DIR$/requisition/save top german.html" />
         <option value="$PROJECT_DIR$/requisition/save bottom german.html" />
         <option value="$PROJECT_DIR$/requisition/branding-bottom.html" />
+        <option value="$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html" />
+        <option value="$PROJECT_DIR$/CSS/css-environnement-test-de-david.css" />
+        <option value="$PROJECT_DIR$/requisition/branding-top.html" />
         <option value="$PROJECT_DIR$/CSS/Advanced-css.css" />
         <option value="$PROJECT_DIR$/js/fluxys.js" />
-        <option value="$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html" />
-        <option value="$PROJECT_DIR$/requisition/branding-top.html" />
+        <option value="$PROJECT_DIR$/js/fluxys-sauvegarde-09_06_22.js" />
+        <option value="$PROJECT_DIR$/js/09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js" />
+        <option value="$PROJECT_DIR$/js/last OK - 09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-180" />
-    <option name="y" value="-1055" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="25" />
     <option name="width" value="1792" />
     <option name="height" value="1055" />
   </component>
@@ -118,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,7 +249,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,13 +258,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/comparesauvegarde fluxys.css" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/js/fluxys.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/requisition" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/CSS" />
+      <recent name="$PROJECT_DIR$/requisition" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -231,6 +335,26 @@
       <workItem from="1637235030257" duration="9155000" />
       <workItem from="1643359292389" duration="15376000" />
       <workItem from="1644488381226" duration="846000" />
+      <workItem from="1644570011624" duration="3357000" />
+      <workItem from="1644574767981" duration="6816000" />
+      <workItem from="1645170205334" duration="3176000" />
+      <workItem from="1645519412773" duration="120000" />
+      <workItem from="1646138654268" duration="1112000" />
+      <workItem from="1646147796955" duration="181000" />
+      <workItem from="1647608989400" duration="4993000" />
+      <workItem from="1649249884823" duration="1299000" />
+      <workItem from="1649323025945" duration="735000" />
+      <workItem from="1649419483439" duration="399000" />
+      <workItem from="1649420380861" duration="46000" />
+      <workItem from="1649420489525" duration="596000" />
+      <workItem from="1652706460406" duration="1057000" />
+      <workItem from="1653475941753" duration="984000" />
+      <workItem from="1653899200820" duration="4000" />
+      <workItem from="1654760749144" duration="2907000" />
+      <workItem from="1655110534794" duration="24000" />
+      <workItem from="1655972505908" duration="330000" />
+      <workItem from="1665645199017" duration="1908000" />
+      <workItem from="1666870431058" duration="2488000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1617896390706</created>
@@ -320,13 +444,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422976000" />
+    <option name="totallyTimeSpent" value="455508000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1792" height="1095" extended-state="6" />
+    <frame x="0" y="0" width="1792" height="1120" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21085714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15885714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -336,10 +460,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17151454" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.18666667" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17868339" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -361,17 +485,6 @@
     <MESSAGE value="remove btn apply on requisition with submission type email" />
     <MESSAGE value="remove chatbot on requisition with submission type email" />
     <option name="LAST_COMMIT_MESSAGE" value="remove chatbot on requisition with submission type email" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/fluxys.js</url>
-          <line>563</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fluxys-js-sauvegarde.js" />
@@ -401,38 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom-old-prod.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requisition/save bottom german.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="706">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41685">
-          <caret line="2779" column="41" selection-start-line="2779" selection-start-column="41" selection-end-line="2779" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -443,38 +528,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css" />
+    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom-old-prod.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/js allemand sauvegarde.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="420">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requisition/requisition.html">
+    <entry file="file://$PROJECT_DIR$/js/fluxys-sauvegarde-09_06_22.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="40" selection-end-line="107" selection-end-column="6" />
+        <state relative-caret-position="840">
+          <caret line="56" column="81" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8265">
+          <caret line="551" column="32" selection-start-line="551" selection-start-column="32" selection-end-line="551" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/css-environnement-test-de-david.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40935">
+          <caret line="2729" column="5" selection-start-line="2729" selection-start-column="5" selection-end-line="2729" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requisition/branding-top.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" />
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/fluxys.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5464">
-          <caret line="513" column="24" selection-start-line="513" selection-start-column="24" selection-end-line="513" selection-end-column="24" />
+        <state relative-caret-position="-3191">
+          <caret line="336" column="59" selection-start-line="336" selection-start-column="59" selection-end-line="336" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
+    <entry file="file://$PROJECT_DIR$/requisition/requisition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37920">
-          <caret line="2528" column="31" selection-start-line="2528" selection-start-column="21" selection-end-line="2528" selection-end-column="31" />
+        <state relative-caret-position="15">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/last OK - 09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="348" lean-forward="true" selection-start-line="348" selection-end-line="348" />
         </state>
       </provider>
     </entry>

@@ -389,8 +389,6 @@ html[lang=en] .job_details .job-detail-intro .lang-hide.en{
 }
 #header_settings_language {
     padding-left: 0 !important;
-    float: none !important;
-    width: 160px !important;
 }
 #job_available_locales_loop {
     max-width: 158px !important;
@@ -531,14 +529,7 @@ html[lang=en] .job_details .job-detail-intro .lang-hide.en{
 }
 #content .content_body .content_header {
     margin-bottom: 0;
-    padding: 20px 20px 0 20px;
 }
-@media (max-width: 992px) {
-    #content .content_body .content_header {
-        margin-top: -20px;
-    }
-}
-
 #content .content_body .content_header .jSearchSubtitle {
     display: none;
 }
@@ -685,7 +676,6 @@ span.field_value.job-id {
 }
 @media (max-width: 992px) {
     #topBranding img.fit-picture {
-        top: 0
     }
 }
 
@@ -723,10 +713,6 @@ span.field_value.job-id {
     max-width: 190px !important;
     transform: translate(10px , 20px);
     opacity: 0;
-}
-
-#logo_hldr .logo img.interconnector {
-    max-width: 270px !important;
 }
 
 .content_header #logo_inner {
@@ -1025,11 +1011,9 @@ span.field_value.job-id {
     margin-bottom: 0;
 }
 .list .nested-list li {
-    display: flex;
     list-style-type: none !important;
 }
 .list .nested-list li:before {
-    margin-right: 5px;
     content:"- ";
 }
 
@@ -2189,15 +2173,6 @@ strong {
     border: none;
     padding: 25px 20px;
 }
-
-[lang=de] #colorbox #cboxContent .modal_title.with_close {
-    padding-bottom: 0;
-}
-
-[lang=de] #cboxLoadedContent, [lang=de] #cboxContent {
-    height: auto !important;
-}
-
 #colorbox #cboxContent .modal_title.with_close h3 {
     font-family: "proxima-nova",sans-serif;
     flex-basis: 100%;
@@ -2601,10 +2576,6 @@ strong {
 
 .hide-on-screen {
     display: none;
-}
-
-.promo_container, .job_qualifications {
-    display: none !important;
 }
 /* PRINT */
 @media print {

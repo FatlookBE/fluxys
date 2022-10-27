@@ -54,7 +54,7 @@ jQuery(".job_details .content_header > .title").clone().appendTo(".section-heade
 jQuery(".job_details #container").prepend('<div class="wrapper-print-organic-image"><img class="print-organic-image" src="/media/images/campaign/vorm4-header.png" /></div>');
 // clone and place title on search
 //jQuery(".jSearchTitle").clone().appendTo(".section-header-title");
-//jQuery(".jSearchTitle").clone().appendTo(".section-header-title-search").text('Fluxys: your partner in gas infrastructure');
+//jQuery(".jSearchTitle").clone().appendTo(".section-header-title-search").text('Fluxys: global energy infrastructure player');
 // remove the toggle before the location
 jQuery(".job_details .content_header > .subtitle .loc_icon").remove();
 // replace search fields in the header
@@ -126,10 +126,8 @@ if (jQuery(".v2").length) {
   jQuery(".job_external_id .field_value").addClass('job-id').appendTo(".section-header-more-informations");
 }
 
-
 /* place all elements after title job in content for the print */
 jQuery(".section-header-more-informations").clone().insertAfter(jQuery(".job_details .content_header > .title"));
-
 
 
 // add aria to job alert link on footer (who is lost when it is moved) to make the popup works
@@ -167,7 +165,7 @@ jQuery(".job_details #container").prepend('<img class="print-organic-image" src=
 /* hide buttton apply on requisition with Submission type = Email */
 if (jQuery("#G118105010618:contains('Submission Type: Email')").length > 0) {
   jQuery('#apply_btn').remove();
-}else {
+} else {
   /* load chatbot */
   var imported = document.createElement('script');
   /* prod URL */
@@ -311,6 +309,7 @@ jQuery(".logo img").css("opacity","1");
 
 /* element to print in footer */
 jQuery('.element-in-footer-to-print').clone().appendTo('.job_description');
+
 /* detect lang and put the intro in the good language */
 if (jQuery('html').is(':lang(en)')) {
   // check first letter of the job title and change the intro sentence according to this one
@@ -330,6 +329,17 @@ if (jQuery('html').is(':lang(en)')) {
   jQuery(".job_details .job-detail-intro").text("Profil recherché : ");
   // replace text Apply by Apply now on the bottom of the page
   jQuery(".job_details .jApplyBtn .btn_text").text("je postule");
+} else if(jQuery('html').is(':lang(de)')) {
+  // Deutsch
+  jQuery(".back-button").text("< Alle Stellen");
+  // replace text Apply by Apply now on the bottom of the page
+  jQuery(".job_details .jApplyBtn .btn_text").text("Jetzt bewerben");
+  // replace text button job alert
+  //jQuery("#header_settings .settings_btn").text("Stellenbenachrichtigung");
+  // replace title texte search
+  jQuery(".section-header-title-search h1").text("Fluxys: Führender Betreiber von Energieinfrastruktur\n");
+  /* replace placeholder search */
+  jQuery("#jLocInputHldr input.search_input").attr("placeholder", "Ort (z. B. Brüssel)");
 } else {
   // nl
   jQuery(".job_details .job-detail-intro").text("Vereist profiel : ");
@@ -527,10 +537,20 @@ jQuery( ".jCommunityModal" ).click(function() {
   } else if(jQuery('html').is(':lang(fr)')) {
     // fr
     jQuery('.user_email_holder label').text('E-mail');
-  } else {
+  } else if(jQuery('html').is(':lang(de)')) {
+    // deutsch
+    setTimeout(function(){
+      jQuery('h3#modalTitle').text('Registrieren Sie sich für unseren Job alert');
+      var contentCondition = jQuery('.terms_conditions_holder').innerHtml
+      jQuery('.terms_conditions_holder label').contents().get(2).nodeValue = 'Ich willige in die ';
+      jQuery('.jTermsConditionsModal').text('Allgemeinen Geschäftsbedingungen ein');
+      jQuery("#user_companies_tc_chzn input").attr("placeholder", "Unternehmen wählen");
+    }, 1000);
+  }  else {
     // nl
     setTimeout(function(){
       jQuery('h3#modalTitle').text('Inschrijven voor job alerts');
+      jQuery('.order_name').text('Nach Fachgebiet sortieren');
       var contentCondition = jQuery('.terms_conditions_holder').innerHtml
       jQuery('.terms_conditions_holder label').contents().get(2).nodeValue = 'Ik ga akkoord met de ';
       jQuery('.jTermsConditionsModal').text('algemene voorwaarden');
@@ -546,6 +566,16 @@ jQuery( window ).click(function() {
   } else if(jQuery('html').is(':lang(fr)')) {
     // fr
     jQuery('.user_email_holder label').text('E-mail');
+  } else if(jQuery('html').is(':lang(de)')) {
+    // Deutsch
+    setTimeout(function(){
+      jQuery('h3#modalTitle').text('Registrieren Sie sich für unseren Job alert');
+      jQuery('.order_name').text('Nach Fachgebiet sortieren');
+      var contentCondition = jQuery('.terms_conditions_holder').innerHtml
+      jQuery('.terms_conditions_holder label').contents().get(2).nodeValue = 'Ich willige in die ';
+      jQuery('.jTermsConditionsModal').text('Allgemeinen Geschäftsbedingungen ein');
+      jQuery("#user_companies_tc_chzn input").attr("placeholder", "Unternehmen wählen");
+    }, 1000);
   } else {
     // nl
     setTimeout(function(){
@@ -564,6 +594,16 @@ jQuery(document).keyup(function(e) {
     } else if(jQuery('html').is(':lang(fr)')) {
       // fr
       jQuery('.user_email_holder label').text('E-mail');
+    } else if(jQuery('html').is(':lang(de)')) {
+      // Deutsch
+      setTimeout(function(){
+        jQuery('h3#modalTitle').text('Registrieren Sie sich für unseren Job alert');
+        jQuery('.order_name').text('Nach Fachgebiet sortieren');
+        var contentCondition = jQuery('.terms_conditions_holder').innerHtml
+        jQuery('.terms_conditions_holder label').contents().get(2).nodeValue = 'Ich willige in die ';
+        jQuery('.jTermsConditionsModal').text('Allgemeinen Geschäftsbedingungen ein');
+        jQuery("#user_companies_tc_chzn input").attr("placeholder", "Unternehmen wählen");
+      }, 1000);
     } else {
       // nl
       setTimeout(function(){
