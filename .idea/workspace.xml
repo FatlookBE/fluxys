@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea43d30f-455b-4f4b-8461-408da3fa6798" name="Default Changelist" comment="remove chatbot on requisition with submission type email">
-      <change afterPath="$PROJECT_DIR$/CSS/css-environnement-test-de-david.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/fluxys-sauvegarde-09_06_22.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/last OK - 09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js" afterDir="false" />
+    <list default="true" id="ea43d30f-455b-4f4b-8461-408da3fa6798" name="Default Changelist" comment="up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/Advanced-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Advanced-css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/fluxys.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fluxys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html" beforeDir="false" afterPath="$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requisition/branding-top.html" beforeDir="false" afterPath="$PROJECT_DIR$/requisition/branding-top.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +12,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32352942">
+    <splitter split-orientation="horizontal" split-proportion="0.5726257">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/fluxys.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3191">
+                <state relative-caret-position="775">
                   <caret line="336" column="59" selection-start-line="336" selection-start-column="59" selection-end-line="336" selection-end-column="59" />
                 </state>
               </provider>
@@ -48,11 +42,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="8265">
-                  <caret line="551" column="32" selection-start-line="551" selection-start-column="32" selection-end-line="551" selection-end-column="32" />
+                <state relative-caret-position="387">
+                  <caret line="2654" column="5" lean-forward="true" selection-start-line="2652" selection-start-column="4" selection-end-line="2654" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -73,8 +67,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/last OK - 09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="348" lean-forward="true" selection-start-line="348" selection-end-line="348" />
+                <state relative-caret-position="253">
+                  <caret line="333" column="39" selection-end-line="652" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -100,7 +94,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/requisition/requisition.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
+                <state relative-caret-position="900">
                   <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
                 </state>
               </provider>
@@ -121,10 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>de</find>
-      <find>subtitl</find>
-      <find>#cboxLoadedContent</find>
-      <find>location</find>
       <find>lang</find>
       <find>hlen</find>
       <find>fluxys:</find>
@@ -151,6 +141,10 @@
       <find>Registrieren Sie sich für Stellenbenachrichtigungen</find>
       <find>Nach Name sortieren</find>
       <find>back-button</find>
+      <find>padding-left: 25px</find>
+      <find>h3</find>
+      <find>print</find>
+      <find>height: 500px</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -203,18 +197,17 @@
         <option value="$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html" />
         <option value="$PROJECT_DIR$/CSS/css-environnement-test-de-david.css" />
         <option value="$PROJECT_DIR$/requisition/branding-top.html" />
-        <option value="$PROJECT_DIR$/CSS/Advanced-css.css" />
         <option value="$PROJECT_DIR$/js/fluxys.js" />
         <option value="$PROJECT_DIR$/js/fluxys-sauvegarde-09_06_22.js" />
         <option value="$PROJECT_DIR$/js/09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js" />
         <option value="$PROJECT_DIR$/js/last OK - 09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js" />
+        <option value="$PROJECT_DIR$/CSS/Advanced-css.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="25" />
     <option name="width" value="1792" />
-    <option name="height" value="1055" />
+    <option name="height" value="1120" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -222,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,6 +241,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,7 +347,11 @@
       <workItem from="1655110534794" duration="24000" />
       <workItem from="1655972505908" duration="330000" />
       <workItem from="1665645199017" duration="1908000" />
-      <workItem from="1666870431058" duration="2488000" />
+      <workItem from="1666870431058" duration="2753000" />
+      <workItem from="1666941275438" duration="1050000" />
+      <workItem from="1666959519872" duration="811000" />
+      <workItem from="1667214154803" duration="156000" />
+      <workItem from="1669994899963" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1617896390706</created>
@@ -440,17 +437,24 @@
       <option name="project" value="LOCAL" />
       <updated>1622536178144</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="up">
+      <created>1666874149415</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666874149415</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="455508000" />
+    <option name="totallyTimeSpent" value="459125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1792" height="1120" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15885714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18514286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -462,9 +466,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.18666667" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49714285" visible="true" weight="0.18571429" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.17868339" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50285715" side_tool="true" visible="true" weight="0.18571429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -484,7 +488,8 @@
     <MESSAGE value="Adaptation pour faire fonctionner les variants en prod" />
     <MESSAGE value="remove btn apply on requisition with submission type email" />
     <MESSAGE value="remove chatbot on requisition with submission type email" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove chatbot on requisition with submission type email" />
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fluxys-js-sauvegarde.js" />
@@ -550,10 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
+    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8265">
-          <caret line="551" column="32" selection-start-line="551" selection-start-column="32" selection-end-line="551" selection-end-column="32" />
+        <state relative-caret-position="405">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -561,6 +566,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40935">
           <caret line="2729" column="5" selection-start-line="2729" selection-start-column="5" selection-end-line="2729" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/last OK - 09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="333" column="39" selection-end-line="652" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -578,31 +590,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requisition/branding-bottom-GERMAN.html">
+    <entry file="file://$PROJECT_DIR$/requisition/requisition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="900">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/fluxys.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3191">
+        <state relative-caret-position="775">
           <caret line="336" column="59" selection-start-line="336" selection-start-column="59" selection-end-line="336" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requisition/requisition.html">
+    <entry file="file://$PROJECT_DIR$/CSS/Advanced-css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/last OK - 09-06-22-sauvegardejsallemanddifférentdeceluiquejai.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="348" lean-forward="true" selection-start-line="348" selection-end-line="348" />
+        <state relative-caret-position="387">
+          <caret line="2654" column="5" lean-forward="true" selection-start-line="2652" selection-start-column="4" selection-end-line="2654" selection-end-column="5" />
         </state>
       </provider>
     </entry>

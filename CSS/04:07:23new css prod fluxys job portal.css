@@ -56,12 +56,7 @@
     display: none;
 }
 
-#search_banner .search_positioner {
-    background: none;
-    box-shadow: none;
-    /* padding: 145px 55px; */
 
-}
 
 #content .content_body {
     /* margin-top: 105px; */
@@ -71,6 +66,26 @@
     width:100%;
 
 }
+
+/* hide locaiton in search */
+#search_banner .search_positioner {
+	background: none;
+	box-shadow: none;
+	justify-content: flex-start;
+}
+
+#search_banner form.jAddFacetSearch:nth-of-type(2) {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .block-search #search_banner form {
+    flex: 0 1 380px !important;
+	}
+
+}
+
+
 
 .search_btn {
     border-radius: 80rem;
@@ -394,11 +409,15 @@ html[lang=en] .job_details .job-detail-intro .lang-hide.en{
 }
 #job_available_locales_loop {
     max-width: 158px !important;
+		opacity: 0;
 }
 
 #picklist_language_bar {
     max-width: 150px !important;
+		opacity: 0;
 }
+
+
 
 #header_settings_container  #key_name_hldr {
     width: auto;
