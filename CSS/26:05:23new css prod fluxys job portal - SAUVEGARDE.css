@@ -1500,7 +1500,30 @@ span.wrapper-add-to-any:after {
 }
 
 /* search */
-
+/* button clear all */
+.clear_all {
+    cursor: pointer;
+    display: block;
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    font-size: 16px;
+    /* button secondary aspect */
+    display: block;
+    border-radius: 80rem;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #90d5ac, #0185ca);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset !important;
+    color: #444444;
+    padding: 5px 15px;
+}
+.clear_all:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(-101deg, rgba(0,193,213,1), rgba(181,189,0,1)) !important;
+    background-origin: border-box !important;
+    box-shadow: 2px 1000px 1px #fff inset, 0px 0px 13px -1px rgb(0 0 0 / 40%) !important;
+}
 #job_search_filters {
     width: 250px;
     margin-right: 25px;
@@ -1585,12 +1608,22 @@ span.wrapper-add-to-any:after {
     -moz-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.4) !important;
     box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.4) !important;
 }
+.block-search #search_hldr .search_fixed .clear_all {
+    color: #1c1e4e;
+    flex: 1 0 auto;
+}
+
 @media (max-width: 992px) {
     .block-search #search_hldr .search_fixed {
         position: relative !important;
         width: auto !important;
         height: auto!important;
         background: none !important;
+    }
+    .block-search #search_hldr .search_fixed .clear_all {
+        color: white;
+        flex: 1 0 auto;
+        margin-top: 5px;
     }
 }
 .block-search #search_banner .location_input_hldr {

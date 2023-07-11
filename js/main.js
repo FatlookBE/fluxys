@@ -59,7 +59,12 @@ jQuery(".job_details #container").prepend('<div class="wrapper-print-organic-ima
 jQuery(".job_details .content_header > .subtitle .loc_icon").remove();
 // replace search fields in the header
 jQuery("#search_hldr").appendTo(".block-search");
+/* Add a button  clear all to remove all  the filters */
+var searchBtnHolder = jQuery(".search_btn_hldr");
+var clearAllBtn = jQuery('<button></button>').addClass('clear_all').text('Clear all filters');
 
+/* Add the "clear all" button after searchBtnHolder */
+searchBtnHolder.after(clearAllBtn);
 
 /* if click on text button apply --> click on the real button */
 jQuery( ".apply-btn-text" ).click(function() {
@@ -362,7 +367,7 @@ jQuery( window ).resize(function() {
 
 /* replace toggle filters */
 jQuery(".toggle-filters").appendTo("#jobs_filters_title");
-/* wait for ajax to stop , then excecute the code (to add filters/tags on the active content) */
+/* wait for ajax to stop , then execute the code (to add filters/tags on the active content) */
 jQuery(document).ajaxStop(function () {
 
   jQuery(".jSearchTitle").removeClass(".section-header-title");
@@ -393,8 +398,36 @@ jQuery(document).ajaxStop(function () {
         }
       });
     });
+
+
+    // Check if at least one element with classes '.jResultsActive' and '#jobs_filters_title .jFilterRowLink' exists
+    if (jQuery('.jResultsActive #jobs_filters_title .jFilterRowLink').length > 0) {
+      // Apply the 'display: block' style to the target element
+      // Replace '.clear_all' with the appropriate selector for your target element
+      jQuery('.clear_all').css('display', 'block');
+    } else {
+      jQuery('.clear_all').css('display', 'none');
+    }
+
   }
+
+
 });
+
+// Au clic sur le bouton ".clear_all"
+jQuery('.clear_all').click(function(e) {
+  e.preventDefault();
+
+  // Définir l'URL spéciale pour réinitialiser les filtres côté serveur
+  var resetUrl = '/jobs/search/';
+
+  // Rediriger vers l'URL de réinitialisation
+  window.location.href = resetUrl;
+});
+
+
+
+
 
 /* open close filters */
 jQuery( ".toggle-filters" ).click(function() {
@@ -541,7 +574,7 @@ jQuery( ".jCommunityModal" ).click(function() {
     // deutsch
     setTimeout(function(){
       jQuery('h3#modalTitle').text('Registrieren Sie sich für unseren Job alert');
-      var contentCondition = jQuery('.terms_conditions_holder').innerHtml
+      var contentCondition = jQuery('.terms_conditions_holder').innerHtml;
       jQuery('.terms_conditions_holder label').contents().get(2).nodeValue = 'Ich willige in die ';
       jQuery('.jTermsConditionsModal').text('Allgemeinen Geschäftsbedingungen ein');
       jQuery("#user_companies_tc_chzn input").attr("placeholder", "Unternehmen wählen");
@@ -551,7 +584,7 @@ jQuery( ".jCommunityModal" ).click(function() {
     setTimeout(function(){
       jQuery('h3#modalTitle').text('Inschrijven voor job alerts');
       jQuery('.order_name').text('Nach Fachgebiet sortieren');
-      var contentCondition = jQuery('.terms_conditions_holder').innerHtml
+      var contentCondition = jQuery('.terms_conditions_holder').innerHtml;
       jQuery('.terms_conditions_holder label').contents().get(2).nodeValue = 'Ik ga akkoord met de ';
       jQuery('.jTermsConditionsModal').text('algemene voorwaarden');
     }, 1000);
@@ -571,7 +604,7 @@ jQuery( window ).click(function() {
     setTimeout(function(){
       jQuery('h3#modalTitle').text('Registrieren Sie sich für unseren Job alert');
       jQuery('.order_name').text('Nach Fachgebiet sortieren');
-      var contentCondition = jQuery('.terms_conditions_holder').innerHtml
+      var contentCondition = jQuery('.terms_conditions_holder').innerHtml;
       jQuery('.terms_conditions_holder label').contents().get(2).nodeValue = 'Ich willige in die ';
       jQuery('.jTermsConditionsModal').text('Allgemeinen Geschäftsbedingungen ein');
       jQuery("#user_companies_tc_chzn input").attr("placeholder", "Unternehmen wählen");
@@ -599,7 +632,7 @@ jQuery(document).keyup(function(e) {
       setTimeout(function(){
         jQuery('h3#modalTitle').text('Registrieren Sie sich für unseren Job alert');
         jQuery('.order_name').text('Nach Fachgebiet sortieren');
-        var contentCondition = jQuery('.terms_conditions_holder').innerHtml
+        var contentCondition = jQuery('.terms_conditions_holder').innerHtml;
         jQuery('.terms_conditions_holder label').contents().get(2).nodeValue = 'Ich willige in die ';
         jQuery('.jTermsConditionsModal').text('Allgemeinen Geschäftsbedingungen ein');
         jQuery("#user_companies_tc_chzn input").attr("placeholder", "Unternehmen wählen");
