@@ -129,6 +129,16 @@ if (jQuery(".v2").length) {
 
   /* replace Job external ID in the header */
   jQuery(".job_external_id .field_value").addClass('job-id').appendTo(".section-header-more-informations");
+
+  // keep only the Working mode after ':' and not the title
+  var workingModeList = jQuery("#G138105010618");
+  var workingModeListText = jQuery(workingModeList).text();
+  var workingModeArray = workingModeListText.split(':');
+  var workingModeFirstCell = workingModeArray[1];
+  var trimworkingModeFirstCell = jQuery.trim(workingModeFirstCell);
+  jQuery(workingModeList).text(' - ' +trimworkingModeFirstCell);
+// replace Working in the header
+  jQuery("#G138105010618").appendTo(".section-header-more-informations");
 }
 
 /* place all elements after title job in content for the print */
@@ -400,14 +410,33 @@ jQuery(document).ajaxStop(function () {
     });
 
 
-    // Check if at least one element with classes '.jResultsActive' and '#jobs_filters_title .jFilterRowLink' exists
-    if (jQuery('.jResultsActive #jobs_filters_title .jFilterRowLink').length > 0) {
+
+    var clearButton = jQuery('.clear_all');
+    /* detect lang and translate clear search button */
+    if (jQuery('html').is(':lang(en)')) {
+      // en
+    } else if(jQuery('html').is(':lang(fr)')) {
+      // fr
+      clearButton.text("Effacer les filtres");
+    } else if(jQuery('html').is(':lang(de)')) {
+      // Deutsch
+      clearButton.text("Alle Filter zurücksetzen");
+    } else {
+      // nl
+      clearButton.text("Wis alle filters");
+    }
+    // Display/hide button clear all filters
+    // Check if at least one element with class '.jResultsActive' and with ID '#jobs_filters_title' exists
+    var searchFromSearchbar = !jQuery('.jResultsActive[data-keywords=""]').length;
+    var searchFromFilters = jQuery('.jResultsActive #jobs_filters_title .jFilterRowLink');
+    if (searchFromFilters.length > 0 || searchFromSearchbar) {
       // Apply the 'display: block' style to the target element
       // Replace '.clear_all' with the appropriate selector for your target element
-      jQuery('.clear_all').css('display', 'block');
+      clearButton.css('display', 'block');
     } else {
-      jQuery('.clear_all').css('display', 'none');
+      clearButton.css('display', 'none');
     }
+
 
   }
 
@@ -564,7 +593,7 @@ jQuery('.page-url').attr('href', pageURL);
 
 
 jQuery( ".jCommunityModal" ).click(function() {
-  /* replace textes in job alert modal */
+  /* replace texts in job alert modal */
   if (jQuery('html').is(':lang(en)')) {
 
   } else if(jQuery('html').is(':lang(fr)')) {
