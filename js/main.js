@@ -131,14 +131,14 @@ if (jQuery(".v2").length) {
   jQuery(".job_external_id .field_value").addClass('job-id').appendTo(".section-header-more-informations");
 
   // keep only the Working mode after ':' and not the title
-  var workingModeList = jQuery("#G138105010618");
+  var workingModeList = jQuery("#G142105010618");
   var workingModeListText = jQuery(workingModeList).text();
   var workingModeArray = workingModeListText.split(':');
   var workingModeFirstCell = workingModeArray[1];
   var trimworkingModeFirstCell = jQuery.trim(workingModeFirstCell);
   jQuery(workingModeList).text(' - ' +trimworkingModeFirstCell);
 // replace Working in the header
-  jQuery("#G138105010618").appendTo(".section-header-more-informations");
+  jQuery("#G142105010618").appendTo(".section-header-more-informations");
 }
 
 /* place all elements after title job in content for the print */
